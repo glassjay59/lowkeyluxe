@@ -1,5 +1,5 @@
-// TT's List: network first so deals are always fresh; cached copy only when offline.
-const C="ttslist-v1";
+// Lowkey Luxe: network first so deals are always fresh; cached copy only when offline.
+const C="lowkeyluxe-v1";
 self.addEventListener("install",e=>self.skipWaiting());
 self.addEventListener("activate",e=>e.waitUntil(self.clients.claim()));
 self.addEventListener("fetch",e=>{
